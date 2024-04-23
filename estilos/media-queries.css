@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    
+    body {
+        background-image: linear-gradient(to top, #2E8B57, purple);
+    }
+    
+    main {
+        display: flex;
+        width: 80vw;
+        height: 300px;
+    }
+
+    div#imagem {
+        float: left;
+        width: 30vw;
+        height: 100vh;
+        background-size: cover;
+        background-position: center right;
+
+    }
+
+    div#formulario {
+        float: right;
+        width: 80vw;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 900px ) {
+    
+}
+
