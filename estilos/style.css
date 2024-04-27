@@ -42,8 +42,52 @@ div p {
     font-size: 0.9em;
 }
 
-div form {
-    
+form div.campo {
+    background-color: rgb(236, 158, 69);
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+
+form div.campo span {
+    color: white;
+}
+
+form > p > input[type="submit"] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 35px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+form > p > input[type="submit"]:hover {
+    background-color: rgb(211, 98, 33);
+    cursor: pointer;
+}
+
+form a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 35px;
+    background-color:white;
+    color: goldenrod;
+    border-radius: 10px;
+    border: 1px solid goldenrod;
+    margin-top: 5px;
+}
+
+form a:hover {
+    background-color: rgb(243, 185, 38);
+    color: white;
 }
 
 
