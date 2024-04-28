@@ -43,51 +43,67 @@ div p {
 }
 
 form div.campo {
-    background-color: rgb(236, 158, 69);
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: goldenrod;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    margin: 7px 0px;
+}
+
+form span.material-icons {
+    
+    color: white;
+    font-size: 2em;
+}
+
+.campo input[type="email"], input[type="password"] {
+    width: 85%;
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    background-color: blanchedalmond;
+    outline: none;
+}
+
+.campo input[type="email"]:hover {
+    background-color: white;
+}
+
+.campo input[type="password"]:hover {
+    background-color: white;
+}
+
+form input[type="submit"] {
     width: 100%;
     height: 40px;
     border-radius: 10px;
-    margin: 5px 0px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.644);
+    border: 1.5px solid darkorange;
+    font-size: 1em; 
 }
 
-form div.campo span {
+form input[type="submit"]:hover {
+    background-color: rgb(165, 91, 0);
     color: white;
-}
-
-form > p > input[type="submit"] {
-    display: block;
-    font-size: 1em;
-    width: 100%;
-    height: 35px;
-    background-color: goldenrod;
-    color: white;
-    border: none;
-    border-radius: 10px;
-}
-
-form > p > input[type="submit"]:hover {
-    background-color: rgb(211, 98, 33);
-    cursor: pointer;
 }
 
 form a {
     display: block;
+    width: 100%;
+    height: 40px;
+    background-color: darkorange;
     text-decoration: none;
     text-align: center;
-    font-size: 1em;
-    width: 100%;
-    height: 35px;
-    background-color:white;
-    color: goldenrod;
+    margin: 5px 0px;
     border-radius: 10px;
-    border: 1px solid goldenrod;
-    margin-top: 5px;
-}
-
-form a:hover {
-    background-color: rgb(243, 185, 38);
     color: white;
+    border: 1px solid gold;
 }
 
-
+form a:hover{
+    background-color: rgb(165, 91, 0);
+}

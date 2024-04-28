@@ -4,8 +4,9 @@
     }
 
     main {
+         
         width: 70vw;
-        height: 450px;
+        height: 350px;
         display: flex;
         
     }
@@ -35,7 +36,7 @@
 
     main {
         width: 80vw;
-        height: 500px;
+        height: 350px;
         display: flex;
         flex-direction: row-reverse;
     }
@@ -53,9 +54,11 @@
 
     div p {
         font-size: 1em;
+        
     }
 
     div h1 {
         font-size: 2.5em;
+        
     }
 }
